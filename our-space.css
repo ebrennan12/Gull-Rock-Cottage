@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+.main-logo {
+  width: 250px;
+}
+
+p {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 768px) {
+navigation {
+  display: none;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  font-weight: 300;
+}
+}
+
+@media (min-width: 768px) {
+navigation {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  font-weight: 300;
+}
+}
+
+ /* Style the navigation menu */
+@media (min-width: 768px) {
+.topnav {
+  display: none;
+  overflow: hidden;
+  background-color: #e6eced;
+  position: relative;
+}
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e6eced;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  font-family: 'Source Serif 4', serif;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 70px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #f5f7f7;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: white;
+  color: white;
+} 
+
+.mobile-main-logo {
+  width: 150px;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.our-space {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5ebe4;
+  padding: 60px 50px 60px 50px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.box-imagery {
+  max-width: 1400px;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  gap: 20px;
+}
+
+@media (min-width: 480px) {
+.box-imagery {
+  max-width: 1400px;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr ) ;
+  grid-template-rows: repeat(4, 200px);
+  padding-bottom: 30px;
+  padding-top: 15px;
+  gap: 20px;
+}
+}
+
+@media (min-width: 768px) {
+.box-imagery {
+  max-width: 1400px;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr ) ;
+  grid-template-rows: repeat(4, 200px);
+  padding-bottom: 30px;
+  padding-top: 15px;
+  gap: 20px;
+}
+}
+
+.box-imagery > img {
+  width: 350px;
+  height: 300px;
+  padding-bottom: 15px;
+  object-fit: cover;
+}
+
+@media (min-width:480px) {
+.box-imagery > img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0px;
+  object-fit: cover;
+}
+}
+
+.img2-box {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.img7-box {
+  grid-column: 2;
+  grid-row: 3 / span 2;
+}
+
+.sub-heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: karla;
+  font-weight: 200;
+}
+
+.acknowledgement-of-country {
+  text-align: center;
+  padding: 50px 80px 50px 80px;
+  margin-top: 10px;
+  background-color: #f5ebe4;
+  font-style: italic;
+  margin: 10px 0px 0px 0px
+}
+
+.links {
+  color: black;
+}
+
+.social-logo {
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  font-size: 12px;
+  padding: 50px 80px 50px 80px;
+}
+
+@media (min-width: 768px) {
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 50px 80px 50px 80px;
+}
+}
+
+input[type="submit"]{
+  background: #f5ebe4;
+  border: 1px solid #000;
+  font-family: 'Source Serif 4', serif;
+  border: 0px;
+  margin-top: 10px;
+  padding: 10px 32px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 120px;
+  text-transform: uppercase;
+}
+
+input[type="text"]{
+  font-family: 'Source Serif 4', serif;
+  border: 1px solid #000;
+  width: 200px;
+  padding: 7px 7px 7px 7px;
+  font-size: 12px;
+}
+
+.link-section {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+.link-section {
+  text-align: left;
+}
+}
+
+.contact-section {
+  text-align: center;
+  margin: 40px;
+}
+
+
+.sign-up-form {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+.sign-up-form {
+  text-align: left;
+}
+}

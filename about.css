@@ -107,6 +107,14 @@ navigation {
 }
 }
 
+@media (min-width: 480px) {
+  .about-us {
+    background-color: #e6eced;
+    padding: 60px 100px 60px 100px;
+    text-align: center;
+  }
+  }
+
 .about-header {
   font-family: karla;
   font-size: 20px;
@@ -119,7 +127,7 @@ navigation {
 
 .acknowledgement-of-country {
   text-align: center;
-  padding: 50px 80px 50px 80px;
+  padding: 50px 60px 50px 60px;
   background-color: #f5ebe4;
   font-style: italic;
 }

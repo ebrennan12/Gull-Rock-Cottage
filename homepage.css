@@ -300,16 +300,18 @@ navigation {
   display: flex;
   flex-direction: column;
   background-color: #f5ebe4;
-  padding: 60px 100px 60px 100px;
+  padding: 60px 60px 60px 60px;
   align-items: center;
 }
 
+@media (min-width: 768px) {
 .homepage-box-space {
   display: flex;
   flex-direction: column;
   background-color: #f5ebe4;
   padding: 60px 100px 60px 100px;
   align-items: center;
+}
 }
 
 .homepage-box-imagery {

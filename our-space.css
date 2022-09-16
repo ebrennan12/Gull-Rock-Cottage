@@ -180,14 +180,17 @@ navigation {
 .acknowledgement-of-country {
   text-align: center;
   padding: 50px 80px 50px 80px;
-  margin-top: 10px;
   background-color: #f5ebe4;
   font-style: italic;
-  margin: 10px 0px 0px 0px
 }
 
-.acknowledgement-of-country-text {
-  padding: 0px 150px 0px 150px;
+@media (min-width: 768px) {
+.acknowledgement-of-country {
+  text-align: center;
+  padding: 50px 200px 50px 200px;
+  background-color: #f5ebe4;
+  font-style: italic;
+}
 }
 
 .links {

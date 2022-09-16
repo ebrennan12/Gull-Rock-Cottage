@@ -233,6 +233,10 @@ input[type="submit"]{
   font-style: italic;
 }
 
+.acknowledgement-of-country-text {
+  padding: 0px 150px 0px 150px;
+}
+
 .links {
   color: black;
 }

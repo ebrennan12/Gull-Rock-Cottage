@@ -17,7 +17,7 @@ a {
 navigation {
   display: none;
   justify-content: center;
-  gap: 40px;
+  column-gap: 40px;
   align-items: center;
   font-weight: 300;
 }
@@ -27,7 +27,7 @@ navigation {
 navigation {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  column-gap: 40px;
   align-items: center;
   font-weight: 300;
 }

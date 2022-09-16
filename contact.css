@@ -33,20 +33,20 @@ navigation {
 }
 
  /* Style the navigation menu */
-@media (min-width: 768px) {
-.topnav {
-  display: none;
-  overflow: hidden;
-  background-color: #e6eced;
-  position: relative;
-}
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #e6eced;
-  position: relative;
-}
+ @media (min-width: 768px) {
+  .topnav {
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {

@@ -99,14 +99,6 @@ navigation {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-.about-us {
-  background-color: #e6eced;
-  padding: 60px 100px 60px 100px;
-  text-align: center;
-}
-}
-
 @media (min-width: 480px) {
   .about-us {
     background-color: #e6eced;

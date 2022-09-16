@@ -180,16 +180,20 @@ navigation {
 .acknowledgement-of-country {
   text-align: center;
   padding: 50px 60px 50px 60px;
+  margin-top: 10px;
   background-color: #f5ebe4;
   font-style: italic;
+  margin: 10px 0px 0px 0px
 }
 
 @media (min-width: 768px) {
 .acknowledgement-of-country {
   text-align: center;
   padding: 50px 200px 50px 200px;
+  margin-top: 10px;
   background-color: #f5ebe4;
   font-style: italic;
+  margin: 10px 0px 0px 0px
 }
 }
 

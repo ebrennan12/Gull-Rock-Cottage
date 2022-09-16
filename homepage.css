@@ -281,7 +281,7 @@ navigation {
   text-align: center;
   font-size: 12px;
   border-radius: 5px;
-  width: 80px;
+  width: 100px;
   text-transform: uppercase;
 }
 
@@ -295,7 +295,7 @@ navigation {
   text-align: center;
   font-size: 12px;
   border-radius: 5px;
-  width: 80px;
+  width: 100px;
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
 }
@@ -435,7 +435,7 @@ navigation {
   padding: 10px 32px;
   font-size: 12px;
   border-radius: 5px;
-  width: 80px;
+  width: 100px;
   text-transform: uppercase;
 }
 
@@ -447,7 +447,7 @@ navigation {
   padding: 10px 32px;
   font-size: 12px;
   border-radius: 5px;
-  width: 80px;
+  width: 100px;
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
 }

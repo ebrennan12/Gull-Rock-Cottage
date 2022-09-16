@@ -533,6 +533,12 @@ navigation {
   padding: 0px 150px 0px 150px;
 }
 
+@media (min-width: 768px) {
+.acknowledgement-of-country-text {
+  padding: 0px 50px 0px 50px;
+}
+}
+
 .links {
   color: black;
 }

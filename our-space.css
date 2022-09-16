@@ -183,7 +183,11 @@ navigation {
   margin-top: 10px;
   background-color: #f5ebe4;
   font-style: italic;
-  margin: 10px 50px 0px 50px
+  margin: 10px 0px 0px 0px
+}
+
+.acknowledgement-of-country-text {
+  padding: 0px 100px 0px 100px;
 }
 
 .links {
